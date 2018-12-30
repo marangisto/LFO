@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -646,4 +646,10 @@ F 3 "~" H 12550 4400 50  0001 C CNN
 	1    12550 4400
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 2150 9650 500  150 
+U 5C2A2626
+F0 "VRef-10" 50
+F1 "VRef-10.sch" 50
+$EndSheet
 $EndSCHEMATC
