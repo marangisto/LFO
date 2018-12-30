@@ -335,7 +335,7 @@ AR Path="/5C2554C2/5C257D06" Ref="J?"  Part="1"
 AR Path="/5C257D06" Ref="J7"  Part="1" 
 F 0 "J7" H 9800 10067 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9800 9976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9750 9750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9750 9750 50  0001 C CNN
 F 3 "~" H 9750 9750 50  0001 C CNN
 	1    9750 9750
 	1    0    0    -1  

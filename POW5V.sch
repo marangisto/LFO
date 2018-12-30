@@ -256,7 +256,7 @@ U 1 1 5B8C48A5
 P 4100 3650
 F 0 "J8" H 4150 4067 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 4150 3976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4100 3650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 4100 3650 50  0001 C CNN
 F 3 "~" H 4100 3650 50  0001 C CNN
 	1    4100 3650
 	1    0    0    1   
