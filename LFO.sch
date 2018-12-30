@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3500 5500 600  400 
+S 3500 5750 600  400 
 U 5C24C2D4
 F0 "DigitalIn" 50
 F1 "DigitalIn.sch" 50
-F2 "Trig" I R 4100 5700 50 
-F3 "In" I L 3500 5700 50 
+F2 "Trig" I R 4100 5950 50 
+F3 "In" I L 3500 5950 50 
 $EndSheet
 $Sheet
 S 11400 5800 550  450 
@@ -33,12 +33,12 @@ $EndSheet
 $Comp
 L Connector:AudioJack2_Ground_Switch J5
 U 1 1 5C24C4A0
-P 2850 5700
-F 0 "J5" H 2618 5679 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 2618 5770 50  0000 R CNN
-F 2 "" H 2850 5700 50  0001 C CNN
-F 3 "~" H 2850 5700 50  0001 C CNN
-	1    2850 5700
+P 2850 5950
+F 0 "J5" H 2618 5929 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 2618 6020 50  0000 R CNN
+F 2 "" H 2850 5950 50  0001 C CNN
+F 3 "~" H 2850 5950 50  0001 C CNN
+	1    2850 5950
 	1    0    0    1   
 $EndComp
 $Comp
@@ -72,29 +72,24 @@ Wire Wire Line
 $Comp
 L power:GND #PWR06
 U 1 1 5C24C7A8
-P 3150 5900
-F 0 "#PWR06" H 3150 5650 50  0001 C CNN
-F 1 "GND" H 3155 5727 50  0000 C CNN
-F 2 "" H 3150 5900 50  0001 C CNN
-F 3 "" H 3150 5900 50  0001 C CNN
-	1    3150 5900
+P 3150 6150
+F 0 "#PWR06" H 3150 5900 50  0001 C CNN
+F 1 "GND" H 3155 5977 50  0000 C CNN
+F 2 "" H 3150 6150 50  0001 C CNN
+F 3 "" H 3150 6150 50  0001 C CNN
+	1    3150 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 5900 3150 5800
+	3150 6150 3150 6050
 Wire Wire Line
-	3150 5800 3050 5800
+	3150 6050 3050 6050
 Wire Wire Line
-	3050 5700 3500 5700
-Wire Wire Line
-	3050 5600 3150 5600
-Wire Wire Line
-	3150 5600 3150 5800
-Connection ~ 3150 5800
-Text GLabel 4400 5700 2    50   Input ~ 0
+	3050 5950 3500 5950
+Text GLabel 4400 5950 2    50   Input ~ 0
 SYNC
 Wire Wire Line
-	4400 5700 4100 5700
+	4400 5950 4100 5950
 Text GLabel 11050 6000 0    50   Input ~ 0
 TRIG
 Wire Wire Line
@@ -200,7 +195,7 @@ L Device:R R2
 U 1 1 5C2538F9
 P 7250 9300
 F 0 "R2" H 7320 9346 50  0000 L CNN
-F 1 "R" H 7320 9255 50  0000 L CNN
+F 1 "330" H 7320 9255 50  0000 L CNN
 F 2 "" V 7180 9300 50  0001 C CNN
 F 3 "~" H 7250 9300 50  0001 C CNN
 	1    7250 9300
@@ -237,7 +232,7 @@ L Device:R R3
 U 1 1 5C254132
 P 7700 9300
 F 0 "R3" H 7770 9346 50  0000 L CNN
-F 1 "R" H 7770 9255 50  0000 L CNN
+F 1 "330" H 7770 9255 50  0000 L CNN
 F 2 "" V 7630 9300 50  0001 C CNN
 F 3 "~" H 7700 9300 50  0001 C CNN
 	1    7700 9300
@@ -505,7 +500,7 @@ Text GLabel 7800 4850 2    50   Input ~ 0
 SCK
 Text GLabel 7800 5650 2    50   Input ~ 0
 RESET
-Text GLabel 8250 5000 2    50   Input ~ 0
+Text GLabel 7800 5050 2    50   Input ~ 0
 MOSI
 Text GLabel 7800 4950 2    50   Input ~ 0
 MISO
@@ -529,8 +524,6 @@ Wire Wire Line
 	7800 4650 7650 4650
 Text GLabel 7800 4750 2    50   Input ~ 0
 TRIG
-Wire Wire Line
-	7800 4750 7650 4750
 Text GLabel 7800 5550 2    50   Input ~ 0
 LED1
 Wire Wire Line
@@ -541,16 +534,10 @@ Wire Wire Line
 	7650 5150 7800 5150
 Text GLabel 7150 9050 0    50   Input ~ 0
 LED1
-Text GLabel 7150 8800 0    50   Input ~ 0
-LED2
 Wire Wire Line
 	7150 9050 7250 9050
 Wire Wire Line
 	7250 9050 7250 9150
-Wire Wire Line
-	7150 8800 7700 8800
-Wire Wire Line
-	7700 8800 7700 9150
 $Comp
 L Device:C C3
 U 1 1 5C275236
@@ -588,19 +575,8 @@ F 3 "" H 4000 9550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 9550 4000 9650
-Text GLabel 8250 5100 2    50   Input ~ 0
+Text GLabel 8200 5050 2    50   Input ~ 0
 OUT
-Wire Wire Line
-	7650 5050 8150 5050
-Wire Wire Line
-	8150 5050 8150 5100
-Wire Wire Line
-	8150 5100 8250 5100
-Wire Wire Line
-	8150 5050 8150 5000
-Wire Wire Line
-	8150 5000 8250 5000
-Connection ~ 8150 5050
 NoConn ~ 12350 5900
 $Comp
 L Connector:AudioJack2_Ground_Switch J2
@@ -688,4 +664,31 @@ Text GLabel 4450 6700 2    50   Input ~ 0
 SPDTS
 Wire Wire Line
 	4100 6700 4450 6700
+$Comp
+L power:+5V #PWR058
+U 1 1 5C28F2B4
+P 3150 5750
+F 0 "#PWR058" H 3150 5600 50  0001 C CNN
+F 1 "+5V" H 3165 5923 50  0000 C CNN
+F 2 "" H 3150 5750 50  0001 C CNN
+F 3 "" H 3150 5750 50  0001 C CNN
+	1    3150 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5850 3150 5850
+Wire Wire Line
+	3150 5850 3150 5750
+Wire Wire Line
+	7650 5050 8200 5050
+Text GLabel 8150 4750 2    50   Input ~ 0
+LED2
+Wire Wire Line
+	7650 4750 8150 4750
+Text GLabel 7150 8800 0    50   Input ~ 0
+LED2
+Wire Wire Line
+	7150 8800 7700 8800
+Wire Wire Line
+	7700 8800 7700 9150
 $EndSCHEMATC
