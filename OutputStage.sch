@@ -646,14 +646,14 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM324 U?
 U 2 1 5C41F6A0
-P 7100 2450
+P 7100 4750
 AR Path="/5C41F6A0" Ref="U?"  Part="2" 
 AR Path="/5C41E89F/5C41F6A0" Ref="U6"  Part="2" 
-F 0 "U6" H 7100 2083 50  0000 C CNN
-F 1 "LM324" H 7100 2174 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 2650 50  0001 C CNN
-	2    7100 2450
+F 0 "U6" H 7100 4383 50  0000 C CNN
+F 1 "LM324" H 7100 4474 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 4950 50  0001 C CNN
+	2    7100 4750
 	1    0    0    1   
 $EndComp
 $Comp
@@ -672,14 +672,14 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM324 U?
 U 4 1 5C41F6AE
-P 7100 4750
+P 7100 2450
 AR Path="/5C41F6AE" Ref="U?"  Part="4" 
 AR Path="/5C41E89F/5C41F6AE" Ref="U6"  Part="4" 
-F 0 "U6" H 7100 4383 50  0000 C CNN
-F 1 "LM324" H 7100 4474 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 4950 50  0001 C CNN
-	4    7100 4750
+F 0 "U6" H 7100 2083 50  0000 C CNN
+F 1 "LM324" H 7100 2174 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 2650 50  0001 C CNN
+	4    7100 2450
 	1    0    0    1   
 $EndComp
 $Comp
