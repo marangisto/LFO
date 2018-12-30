@@ -437,11 +437,11 @@ Wire Wire Line
 	7650 4450 7800 4450
 Wire Wire Line
 	7650 4550 7800 4550
-Text GLabel 7800 4650 2    50   Input ~ 0
+Text GLabel 7800 4750 2    50   Input ~ 0
 SYNC
 Wire Wire Line
 	7800 4650 7650 4650
-Text GLabel 7800 4750 2    50   Input ~ 0
+Text GLabel 7800 4650 2    50   Input ~ 0
 TRIG
 Text GLabel 7800 5550 2    50   Input ~ 0
 LED1
