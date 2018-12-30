@@ -31,7 +31,7 @@ AR Path="/5C25BE94/5C757A4B" Ref="U?"  Part="1"
 AR Path="/5C24C30F/5C757A4B" Ref="U2"  Part="1" 
 F 0 "U2" H 4775 3033 50  0000 C CNN
 F 1 "74AHCT1G125" H 4775 3124 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4800 3300 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4800 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4800 3300 50  0001 C CNN
 	1    4800 3300
 	1    0    0    1   

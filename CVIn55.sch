@@ -501,7 +501,7 @@ AR Path="/5C1536DC/5C10EDC3" Ref="U?"  Part="1"
 AR Path="/5C24D0E8/5C10EDC3" Ref="U3"  Part="1" 
 F 0 "U3" H 5350 2233 50  0000 C CNN
 F 1 "MCP6002-xMS" H 5350 2324 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5350 2600 50  0001 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 5350 2600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5350 2600 50  0001 C CNN
 	1    5350 2600
 	1    0    0    1   
@@ -520,7 +520,7 @@ AR Path="/5C1536DC/5C10F036" Ref="U?"  Part="2"
 AR Path="/5C24D0E8/5C10F036" Ref="U3"  Part="2" 
 F 0 "U3" H 7550 3433 50  0000 C CNN
 F 1 "MCP6002-xMS" H 7550 3524 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7550 3800 50  0001 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 7550 3800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7550 3800 50  0001 C CNN
 	2    7550 3800
 	1    0    0    1   
@@ -539,7 +539,7 @@ AR Path="/5C1536DC/5C10F0E0" Ref="U?"  Part="3"
 AR Path="/5C24D0E8/5C10F0E0" Ref="U3"  Part="3" 
 F 0 "U3" H 2658 6796 50  0000 L CNN
 F 1 "MCP6002-xMS" H 2658 6705 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2700 6750 50  0001 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 2700 6750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2700 6750 50  0001 C CNN
 	3    2700 6750
 	1    0    0    -1  

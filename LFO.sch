@@ -30,28 +30,6 @@ F1 "DigitalOut.sch" 50
 F2 "Trig" I L 11400 6000 50 
 F3 "Out" I R 11950 6000 50 
 $EndSheet
-$Comp
-L Connector:AudioJack2_Ground_Switch J5
-U 1 1 5C24C4A0
-P 2850 5950
-F 0 "J5" H 2618 5929 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 2618 6020 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 5950 50  0001 C CNN
-F 3 "~" H 2850 5950 50  0001 C CNN
-	1    2850 5950
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_Ground_Switch J6
-U 1 1 5C24C623
-P 12550 6000
-F 0 "J6" H 12317 5979 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 12317 6070 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 6000 50  0001 C CNN
-F 3 "~" H 12550 6000 50  0001 C CNN
-	1    12550 6000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	11950 6000 12350 6000
 $Comp
@@ -111,17 +89,6 @@ F2 "CV" I R 4100 5000 50
 F3 "In" I L 3500 5000 50 
 $EndSheet
 $Comp
-L Connector:AudioJack2_Ground_Switch J3
-U 1 1 5C24D551
-P 2850 5000
-F 0 "J3" H 2618 4979 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 2618 5070 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 5000 50  0001 C CNN
-F 3 "~" H 2850 5000 50  0001 C CNN
-	1    2850 5000
-	1    0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 5C24D557
 P 3150 5200
@@ -143,17 +110,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 4900 3150 5100
 Connection ~ 3150 5100
-$Comp
-L Connector:AudioJack2_Ground_Switch J1
-U 1 1 5C24D6FA
-P 2850 4300
-F 0 "J1" H 2618 4279 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 2618 4370 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 4300 50  0001 C CNN
-F 3 "~" H 2850 4300 50  0001 C CNN
-	1    2850 4300
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5C24D700
@@ -314,7 +270,7 @@ AR Path="/5C2554C2/5C2560C4" Ref="Y?"  Part="1"
 AR Path="/5C2560C4" Ref="Y1"  Part="1" 
 F 0 "Y1" V 8454 5781 50  0000 L CNN
 F 1 "20MHz" V 8545 5781 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm" H 8500 5650 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm" H 8500 5650 50  0001 C CNN
 F 3 "~" H 8500 5650 50  0001 C CNN
 	1    8500 5650
 	0    1    1    0   
@@ -422,7 +378,7 @@ AR Path="/5C2554C2/5C257D24" Ref="SW?"  Part="1"
 AR Path="/5C257D24" Ref="SW1"  Part="1" 
 F 0 "SW1" H 9800 10535 50  0000 C CNN
 F 1 "SW_Push" H 9800 10444 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H9.5mm" H 9800 10450 50  0001 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h9.5mm" H 9800 10450 50  0001 C CNN
 F 3 "" H 9800 10450 50  0001 C CNN
 	1    9800 10250
 	1    0    0    -1  
@@ -542,17 +498,6 @@ Text GLabel 8200 5050 2    50   Input ~ 0
 OUT
 NoConn ~ 12350 5900
 $Comp
-L Connector:AudioJack2_Ground_Switch J2
-U 1 1 5C2B6768
-P 12550 4400
-F 0 "J2" H 12317 4379 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 12317 4470 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 4400 50  0001 C CNN
-F 3 "~" H 12550 4400 50  0001 C CNN
-	1    12550 4400
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 5C2B676F
 P 12250 4600
@@ -568,17 +513,6 @@ Wire Wire Line
 Wire Wire Line
 	12250 4500 12350 4500
 NoConn ~ 12350 4300
-$Comp
-L Connector:AudioJack2_Ground_Switch J4
-U 1 1 5C30B987
-P 12550 5200
-F 0 "J4" H 12317 5179 50  0000 R CNN
-F 1 "AudioJack2_Ground_Switch" H 12317 5270 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 5200 50  0001 C CNN
-F 3 "~" H 12550 5200 50  0001 C CNN
-	1    12550 5200
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5C30B98F
@@ -646,4 +580,70 @@ Wire Wire Line
 	7650 5050 8200 5050
 Wire Wire Line
 	7650 4750 7800 4750
+$Comp
+L Connector:AudioJack2_SwitchT J3
+U 1 1 5C28C339
+P 2850 5000
+F 0 "J3" H 2670 4933 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 2670 5024 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 5000 50  0001 C CNN
+F 3 "~" H 2850 5000 50  0001 C CNN
+	1    2850 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J5
+U 1 1 5C28C3CE
+P 2850 5950
+F 0 "J5" H 2670 5883 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 2670 5974 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 5950 50  0001 C CNN
+F 3 "~" H 2850 5950 50  0001 C CNN
+	1    2850 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J1
+U 1 1 5C28C4A9
+P 2850 4300
+F 0 "J1" H 2670 4233 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 2670 4324 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 4300 50  0001 C CNN
+F 3 "~" H 2850 4300 50  0001 C CNN
+	1    2850 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J6
+U 1 1 5C28C823
+P 12550 6000
+F 0 "J6" H 12370 5933 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 12370 6024 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 6000 50  0001 C CNN
+F 3 "~" H 12550 6000 50  0001 C CNN
+	1    12550 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J4
+U 1 1 5C28C897
+P 12550 5200
+F 0 "J4" H 12370 5133 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 12370 5224 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 5200 50  0001 C CNN
+F 3 "~" H 12550 5200 50  0001 C CNN
+	1    12550 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J2
+U 1 1 5C28C910
+P 12550 4400
+F 0 "J2" H 12370 4333 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 12370 4424 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 4400 50  0001 C CNN
+F 3 "~" H 12550 4400 50  0001 C CNN
+	1    12550 4400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

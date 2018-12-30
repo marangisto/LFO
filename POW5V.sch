@@ -159,7 +159,7 @@ U 1 1 5B8C4349
 P 6350 3300
 F 0 "U5" H 6350 3542 50  0000 C CNN
 F 1 "L7805" H 6350 3451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6375 3150 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin2" H 6375 3150 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 3250 50  0001 C CNN
 	1    6350 3300
 	1    0    0    -1  
