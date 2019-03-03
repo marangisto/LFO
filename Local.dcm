@@ -5,3 +5,5 @@ D Low-Power, Quad-Operational Amplifiers, QFN-16
 K quad opamp
 F https://www.st.com/resource/en/datasheet/lm324.pdf
 $ENDCMP
+#
+#End Doc Library
