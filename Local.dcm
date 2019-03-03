@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM324QT
+D Low-Power, Quad-Operational Amplifiers, QFN-16
+K quad opamp
+F https://www.st.com/resource/en/datasheet/lm324.pdf
+$ENDCMP
