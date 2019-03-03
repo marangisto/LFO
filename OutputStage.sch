@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LFO-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -631,58 +630,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 2950 6050 2950
 $Comp
-L Amplifier_Operational:LM324 U?
-U 1 1 5C41F699
-P 5500 2450
-AR Path="/5C41F699" Ref="U?"  Part="1" 
-AR Path="/5C41E89F/5C41F699" Ref="U6"  Part="1" 
-F 0 "U6" H 5500 2083 50  0000 C CNN
-F 1 "LM324" H 5500 2174 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 5450 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5550 2650 50  0001 C CNN
-	1    5500 2450
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 2 1 5C41F6A0
-P 7100 4750
-AR Path="/5C41F6A0" Ref="U?"  Part="2" 
-AR Path="/5C41E89F/5C41F6A0" Ref="U6"  Part="2" 
-F 0 "U6" H 7100 4383 50  0000 C CNN
-F 1 "LM324" H 7100 4474 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 4950 50  0001 C CNN
-	2    7100 4750
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 3 1 5C41F6A7
-P 5550 4750
-AR Path="/5C41F6A7" Ref="U?"  Part="3" 
-AR Path="/5C41E89F/5C41F6A7" Ref="U6"  Part="3" 
-F 0 "U6" H 5550 4383 50  0000 C CNN
-F 1 "LM324" H 5550 4474 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 5500 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5600 4950 50  0001 C CNN
-	3    5550 4750
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324 U?
-U 4 1 5C41F6AE
-P 7100 2450
-AR Path="/5C41F6AE" Ref="U?"  Part="4" 
-AR Path="/5C41E89F/5C41F6AE" Ref="U6"  Part="4" 
-F 0 "U6" H 7100 2083 50  0000 C CNN
-F 1 "LM324" H 7100 2174 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7150 2650 50  0001 C CNN
-	4    7100 2450
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5C41F6B5
 P 7950 4750
@@ -1043,7 +990,6 @@ F 3 "~" H 6200 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 4750 6050 4750
-Connection ~ 5850 4750
 Wire Wire Line
 	6350 4750 6550 4750
 Wire Wire Line
@@ -1179,19 +1125,6 @@ Wire Wire Line
 	2550 6550 2550 6600
 Wire Wire Line
 	1700 6550 2550 6550
-$Comp
-L Amplifier_Operational:LM324 U?
-U 5 1 5C421E8D
-P 3050 6550
-AR Path="/5C421E8D" Ref="U?"  Part="5" 
-AR Path="/5C41E89F/5C421E8D" Ref="U6"  Part="5" 
-F 0 "U6" H 3008 6596 50  0000 L CNN
-F 1 "LM324" H 3008 6505 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 3000 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3100 6750 50  0001 C CNN
-	5    3050 6550
-	1    0    0    -1  
-$EndComp
 Text HLabel 8300 2450 2    50   Input ~ 10
 Out
 Text HLabel 8300 4750 2    50   Input ~ 10
@@ -1237,4 +1170,60 @@ F 3 "" H 4950 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4950 5450 4950 5400
+$Comp
+L Local:LM324QT U6
+U 1 1 5C7BCF61
+P 5500 2450
+F 0 "U6" H 5500 2083 50  0000 C CNN
+F 1 "LM324QT" H 5500 2174 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 5450 2550 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 5550 2650 50  0001 C CNN
+	1    5500 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Local:LM324QT U6
+U 2 1 5C7BD03D
+P 7100 4750
+F 0 "U6" H 7100 4383 50  0000 C CNN
+F 1 "LM324QT" H 7100 4474 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 4850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 7150 4950 50  0001 C CNN
+	2    7100 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L Local:LM324QT U6
+U 3 1 5C7BD13F
+P 5550 4750
+F 0 "U6" H 5550 4383 50  0000 C CNN
+F 1 "LM324QT" H 5550 4474 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 5500 4850 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 5600 4950 50  0001 C CNN
+	3    5550 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L Local:LM324QT U6
+U 4 1 5C7BD22C
+P 7100 2450
+F 0 "U6" H 7100 2083 50  0000 C CNN
+F 1 "LM324QT" H 7100 2174 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7050 2550 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 7150 2650 50  0001 C CNN
+	4    7100 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Local:LM324QT U6
+U 5 1 5C7BD438
+P 3050 6550
+F 0 "U6" H 3008 6596 50  0000 L CNN
+F 1 "LM324QT" H 3008 6505 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 3000 6650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 3100 6750 50  0001 C CNN
+	5    3050 6550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 4750
 $EndSCHEMATC

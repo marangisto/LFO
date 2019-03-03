@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LFO-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -580,76 +579,76 @@ Wire Wire Line
 	7650 5050 8200 5050
 Wire Wire Line
 	7650 4750 7800 4750
-$Comp
-L Connector:AudioJack2_SwitchT J3
-U 1 1 5C28C339
-P 2850 5000
-F 0 "J3" H 2670 4933 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 2670 5024 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 5000 50  0001 C CNN
-F 3 "~" H 2850 5000 50  0001 C CNN
-	1    2850 5000
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J5
-U 1 1 5C28C3CE
-P 2850 5950
-F 0 "J5" H 2670 5883 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 2670 5974 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 5950 50  0001 C CNN
-F 3 "~" H 2850 5950 50  0001 C CNN
-	1    2850 5950
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J1
-U 1 1 5C28C4A9
-P 2850 4300
-F 0 "J1" H 2670 4233 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 2670 4324 50  0000 R CNN
-F 2 "Local:PJ398SM" H 2850 4300 50  0001 C CNN
-F 3 "~" H 2850 4300 50  0001 C CNN
-	1    2850 4300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J6
-U 1 1 5C28C823
-P 12550 6000
-F 0 "J6" H 12370 5933 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 12370 6024 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 6000 50  0001 C CNN
-F 3 "~" H 12550 6000 50  0001 C CNN
-	1    12550 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J4
-U 1 1 5C28C897
-P 12550 5200
-F 0 "J4" H 12370 5133 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 12370 5224 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 5200 50  0001 C CNN
-F 3 "~" H 12550 5200 50  0001 C CNN
-	1    12550 5200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J2
-U 1 1 5C28C910
-P 12550 4400
-F 0 "J2" H 12370 4333 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 12370 4424 50  0000 R CNN
-F 2 "Local:PJ398SM" H 12550 4400 50  0001 C CNN
-F 3 "~" H 12550 4400 50  0001 C CNN
-	1    12550 4400
-	-1   0    0    1   
-$EndComp
 $Sheet
 S 2150 9650 500  150 
 U 5C2A2626
 F0 "VRef-10" 50
 F1 "VRef-10.sch" 50
 $EndSheet
+$Comp
+L Connector:AudioJack2_Ground_Switch J4
+U 1 1 5C7DAD27
+P 12550 4400
+F 0 "J4" H 12317 4379 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 12317 4470 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 4400 50  0001 C CNN
+F 3 "~" H 12550 4400 50  0001 C CNN
+	1    12550 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J3
+U 1 1 5C7DAE10
+P 2850 5950
+F 0 "J3" H 2618 5929 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 2618 6020 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 5950 50  0001 C CNN
+F 3 "~" H 2850 5950 50  0001 C CNN
+	1    2850 5950
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J2
+U 1 1 5C7DAE72
+P 2850 5000
+F 0 "J2" H 2618 4979 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 2618 5070 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 5000 50  0001 C CNN
+F 3 "~" H 2850 5000 50  0001 C CNN
+	1    2850 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J1
+U 1 1 5C7DAEBD
+P 2850 4300
+F 0 "J1" H 2618 4279 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 2618 4370 50  0000 R CNN
+F 2 "Local:PJ398SM" H 2850 4300 50  0001 C CNN
+F 3 "~" H 2850 4300 50  0001 C CNN
+	1    2850 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J6
+U 1 1 5C7DC8E5
+P 12550 6000
+F 0 "J6" H 12317 5979 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 12317 6070 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 6000 50  0001 C CNN
+F 3 "~" H 12550 6000 50  0001 C CNN
+	1    12550 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J5
+U 1 1 5C7DC92C
+P 12550 5200
+F 0 "J5" H 12317 5179 50  0000 R CNN
+F 1 "AudioJack2_Ground_Switch" H 12317 5270 50  0000 R CNN
+F 2 "Local:PJ398SM" H 12550 5200 50  0001 C CNN
+F 3 "~" H 12550 5200 50  0001 C CNN
+	1    12550 5200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
