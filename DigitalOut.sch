@@ -15,28 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xGxx:74AHCT1G125 U?
-U 1 1 5C757A4B
-P 4800 3300
-AR Path="/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C66B34F/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C7467E3/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C756F9E/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C75ED8D/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C75F05F/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C75F064/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C230BAE/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C25BE68/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C25BE94/5C757A4B" Ref="U?"  Part="1" 
-AR Path="/5C24C30F/5C757A4B" Ref="U2"  Part="1" 
-F 0 "U2" H 4775 3033 50  0000 C CNN
-F 1 "74AHCT1G125" H 4775 3124 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4800 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4800 3300 50  0001 C CNN
-	1    4800 3300
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5C757A52
 P 5350 3300
@@ -84,79 +62,32 @@ F 3 "" H 4800 3500 50  0001 C CNN
 $EndComp
 Text HLabel 4000 3300 0    50   Input ~ 0
 Trig
-Wire Wire Line
-	4000 3300 4300 3300
-$Comp
-L Device:R R?
-U 1 1 5C1064FD
-P 4300 3600
-AR Path="/5C75F05F/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C756F9E/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C75ED8D/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C75F064/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C230BAE/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C25BE68/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C25BE94/5C1064FD" Ref="R?"  Part="1" 
-AR Path="/5C24C30F/5C1064FD" Ref="R6"  Part="1" 
-F 0 "R6" H 4370 3646 50  0000 L CNN
-F 1 "330" H 4370 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4230 3600 50  0001 C CNN
-F 3 "~" H 4300 3600 50  0001 C CNN
-	1    4300 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 3450 4300 3300
-Connection ~ 4300 3300
-Wire Wire Line
-	4300 3300 4500 3300
-$Comp
-L Device:LED D?
-U 1 1 5C1065D7
-P 4300 4000
-AR Path="/5C75F05F/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C756F9E/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C75ED8D/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C75F064/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C230BAE/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C25BE68/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C25BE94/5C1065D7" Ref="D?"  Part="1" 
-AR Path="/5C24C30F/5C1065D7" Ref="D2"  Part="1" 
-F 0 "D2" V 4338 3883 50  0000 R CNN
-F 1 "LED" V 4247 3883 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 4300 4000 50  0001 C CNN
-F 3 "~" H 4300 4000 50  0001 C CNN
-	1    4300 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C10661F
-P 4300 4250
-AR Path="/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C66B34F/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C7467E3/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C756F9E/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C75ED8D/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C75F05F/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C75F064/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C230BAE/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C25BE68/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C25BE94/5C10661F" Ref="#PWR?"  Part="1" 
-AR Path="/5C24C30F/5C10661F" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 4300 4000 50  0001 C CNN
-F 1 "GND" H 4300 4100 50  0000 C CNN
-F 2 "" H 4300 4250 50  0001 C CNN
-F 3 "" H 4300 4250 50  0001 C CNN
-	1    4300 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 3750 4300 3850
-Wire Wire Line
-	4300 4150 4300 4250
 Text HLabel 5900 3300 2    50   Input ~ 0
 Out
 Wire Wire Line
 	5500 3300 5900 3300
+$Comp
+L 74xGxx:74AHCT1G125 U?
+U 1 1 5C757A4B
+P 4800 3300
+AR Path="/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C66B34F/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C7467E3/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C756F9E/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C75ED8D/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C75F05F/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C75F064/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C230BAE/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C25BE68/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C25BE94/5C757A4B" Ref="U?"  Part="1" 
+AR Path="/5C24C30F/5C757A4B" Ref="U2"  Part="1" 
+F 0 "U2" H 4775 3033 50  0000 C CNN
+F 1 "74AHCT1G125" H 4775 3124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4800 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4000 3300 4500 3300
 $EndSCHEMATC
