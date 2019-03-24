@@ -1087,7 +1087,7 @@ U 1 1 5C7BCF61
 P 5000 2900
 F 0 "U6" H 5000 2533 50  0000 C CNN
 F 1 "LM324QT" H 5000 2624 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 4950 3000 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 4950 3000 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 5050 3100 50  0001 C CNN
 	1    5000 2900
 	1    0    0    1   
@@ -1098,7 +1098,7 @@ U 2 1 5C7BD03D
 P 8750 4850
 F 0 "U6" H 8750 4483 50  0000 C CNN
 F 1 "LM324QT" H 8750 4574 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 8700 4950 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 8700 4950 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 8800 5050 50  0001 C CNN
 	2    8750 4850
 	1    0    0    1   
@@ -1109,7 +1109,7 @@ U 3 1 5C7BD13F
 P 7150 4750
 F 0 "U6" H 7150 4383 50  0000 C CNN
 F 1 "LM324QT" H 7150 4474 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 7100 4850 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 7100 4850 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 7200 4950 50  0001 C CNN
 	3    7150 4750
 	1    0    0    1   
@@ -1120,7 +1120,7 @@ U 4 1 5C7BD22C
 P 8750 2450
 F 0 "U6" H 8750 2083 50  0000 C CNN
 F 1 "LM324QT" H 8750 2174 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 8700 2550 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 8700 2550 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 8800 2650 50  0001 C CNN
 	4    8750 2450
 	1    0    0    1   
@@ -1131,7 +1131,7 @@ U 5 1 5C7BD438
 P 3050 6550
 F 0 "U6" H 3008 6596 50  0000 L CNN
 F 1 "LM324QT" H 3008 6505 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm" H 3000 6650 50  0001 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 3000 6650 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/lm324.pdf" H 3100 6750 50  0001 C CNN
 	5    3050 6550
 	1    0    0    -1  
