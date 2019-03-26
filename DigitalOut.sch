@@ -66,6 +66,8 @@ Text HLabel 5900 3300 2    50   Input ~ 0
 Out
 Wire Wire Line
 	5500 3300 5900 3300
+Wire Wire Line
+	4000 3300 4500 3300
 $Comp
 L 74xGxx:74AHCT1G125 U?
 U 1 1 5C757A4B
@@ -88,6 +90,4 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 4800 3300 50  0001 C CNN
 	1    4800 3300
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4000 3300 4500 3300
 $EndSCHEMATC

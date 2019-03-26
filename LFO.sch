@@ -492,7 +492,7 @@ F 3 "" H 4000 9550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 9550 4000 9650
-Text GLabel 8600 5050 2    50   Input ~ 0
+Text GLabel 9850 5050 2    50   Input ~ 0
 OUT
 NoConn ~ 12350 5900
 $Comp
@@ -575,8 +575,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 5850 3150 5750
 Wire Wire Line
-	7650 5050 8200 5050
-Wire Wire Line
 	7650 4750 7800 4750
 $Sheet
 S 2150 9650 500  150 
@@ -650,19 +648,6 @@ F 3 "~" H 12550 6000 50  0001 C CNN
 	1    12550 6000
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:Jumper_NC_Small JP1
-U 1 1 5C97B905
-P 8300 5050
-F 0 "JP1" H 8300 5262 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 8300 5171 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8300 5050 50  0001 C CNN
-F 3 "~" H 8300 5050 50  0001 C CNN
-	1    8300 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 5050 8600 5050
 Wire Wire Line
 	7650 4950 8600 4950
 Wire Wire Line
@@ -739,4 +724,45 @@ Wire Wire Line
 	8100 9050 8100 9150
 Text GLabel 7800 5550 2    50   Input ~ 0
 LED2
+$Comp
+L 74xGxx:74AHCT1G125 U7
+U 1 1 5C9AEE23
+P 9350 5050
+AR Path="/5C9AEE23" Ref="U7"  Part="1" 
+AR Path="/5C66B34F/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C7467E3/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C756F9E/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C75ED8D/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C75F05F/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C75F064/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C230BAE/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C25BE68/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C25BE94/5C9AEE23" Ref="U?"  Part="1" 
+AR Path="/5C24C30F/5C9AEE23" Ref="U?"  Part="1" 
+F 0 "U7" H 9325 4783 50  0000 C CNN
+F 1 "74AHCT1G125" H 9325 4874 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9350 5050 50  0001 C CNN
+	1    9350 5050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7650 5050 9050 5050
+$Comp
+L power:GND #PWR?
+U 1 1 5C9B289D
+P 9350 5350
+AR Path="/5C2554C2/5C9B289D" Ref="#PWR?"  Part="1" 
+AR Path="/5C9B289D" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 9350 5100 50  0001 C CNN
+F 1 "GND" H 9350 5200 50  0000 C CNN
+F 2 "" H 9350 5350 50  0001 C CNN
+F 3 "" H 9350 5350 50  0001 C CNN
+	1    9350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5350 9350 5250
+Wire Wire Line
+	9600 5050 9850 5050
 $EndSCHEMATC
