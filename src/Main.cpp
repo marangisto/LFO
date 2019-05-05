@@ -184,7 +184,7 @@ ISR(TIM0_COMPA_vect)
     }
 
     pwm::output_compare_register<channel_a>() = 0x1ff - y;
-    pwm::output_compare_register<channel_b>() = 0x1ff - y;
+    pwm::output_compare_register<channel_b>() = y;
 
     if ((i = (i + step) & 0x3ff) == 0)
         state = start;
