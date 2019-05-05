@@ -184,7 +184,7 @@ ISR(TIM0_COMPA_vect)
     }
 
     pwm::output_compare_register<channel_a>() = 0x1ff - y;
-    pwm::output_compare_register<channel_b>() = y;
+    pwm::output_compare_register<channel_b>() = 0x1ff - y;
 
     if ((i = (i + step) & 0x3ff) == 0)
         state = start;
@@ -253,7 +253,6 @@ void loop()
     uint16_t cv_freq = 0x3ff - adc::read<adc_freq>();
 
     // FIXME: wait for timer counter to be far away from overflow to avoid race
-    // FIXME: also do someting to have the slow / lower medium range update mid-cycle
 
     switch (speed)
     {
