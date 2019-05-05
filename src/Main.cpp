@@ -184,6 +184,7 @@ ISR(TIM0_COMPA_vect)
     }
 
     pwm::output_compare_register<channel_a>() = 0x1ff - y;
+    pwm::output_compare_register<channel_b>() = 0x1ff - y;
 
     if ((i = (i + step) & 0x3ff) == 0)
         state = start;
@@ -201,7 +202,9 @@ void setup()
     pwm::setup<fast_pwm, top_0x1ff>();
     pwm::clock_select<1>();
     pwm::output_pin<channel_a>::setup();
+    pwm::output_pin<channel_b>::setup();
     pwm::compare_output_mode<channel_a, clear_on_compare_match>();
+    pwm::compare_output_mode<channel_b, clear_on_compare_match>();
 
     time::setup<ctc_mode, top_ocra>();
     time::clock_select<8>();
