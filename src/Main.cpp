@@ -16,7 +16,7 @@ typedef output_t<PA, 2> out_trig;
 typedef output_t<PA, 5> led1;
 typedef output_t<PB, 2> led2;
 
-typedef input_t<PA, 3> in_sync;
+typedef input_t<PA, 3> in_sync;     // PCINT3
 
 static const uint8_t adc_freq = 0;
 static const uint8_t adc_pwm = 1;
@@ -190,6 +190,12 @@ ISR(TIM0_COMPA_vect)
         state = start;
 }
 
+ISR(PCINT0_vect)
+{
+    if (!in_sync::read())    // inverted input
+        state = reset;
+}
+
 void setup()
 {
     out_trig::setup();
@@ -210,6 +216,9 @@ void setup()
     time::clock_select<8>();
     time::output_compare_register<channel_a>() = 255;
     time::enable_oca();
+
+    PCMSK0 |= _BV(PCINT3);  // enable pin-change interrupt on rst (PCINT3)
+    GIMSK |= _BV(PCIE0);    // enable channel 0 pin-change interrupts
 
     sei();
 }
