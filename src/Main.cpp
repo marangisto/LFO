@@ -124,11 +124,13 @@ ISR(TIM0_COMPA_vect)
         divs = use_divs;
         out_trig::set();
         triggered = true;
+        led2::set();
     }
     else if (triggered && i >= duty_cycle)
     {
         out_trig::clear();
         triggered = false;
+        led2::clear();
     }
 
     switch (state)
