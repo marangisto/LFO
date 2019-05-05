@@ -228,9 +228,9 @@ void loop()
 
         switch (sw0)
         {
-            case sw_up: speed = fast; break;
-            case sw_mid: speed = medium; break;
-            case sw_dn: speed = slow; break;
+            case sw_up: speed = fast; state = reset; break;
+            case sw_mid: speed = medium; state = reset; break;
+            case sw_dn: speed = slow; state = reset; break;
             default: ;
         }
     }
